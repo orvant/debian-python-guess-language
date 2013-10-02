@@ -1,0 +1,15 @@
+Source: python-guess-language
+Maintainer: Orvant Maintainers <dev@orvant.com>
+Section: python
+Priority: optional
+Standards-Version: 3.9.4
+Build-Depends: debhelper (>= 8), python-all
+Homepage: https://bitbucket.org/spirit/guess_language
+XS-Python-Version: >= 2.7
+
+Package: python-guess-language
+Architecture: all
+Depends: ${python:Depends}, ${misc:Depends}
+Description: Guess the natural language of a text
+ Attempts to determine the natural language of a selection of Unicode (utf-8)
+ text.
